@@ -11,14 +11,9 @@ This repository will actually serve as a aid to help you get started with your o
 ## Hello_CircuitPython
 
 ### Description & Code
-Description goes here
+I had to control the neo pixel to make it change colors.
 
-Here's how you make code look like code:
-
-```python
-Code goes here
-
-```
+[Here's the code](https://github.com/Devon128/CircuitPython/blob/main/HelloCircuitPython.py)
 
 
 ### Evidence
