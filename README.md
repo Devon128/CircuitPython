@@ -33,8 +33,16 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Description & Code
 
+I had to make a 180 Servo slowly sweep back and forth between 0 and 180.This is for the future me or the new engineering students in case you would ever need to know how to get a servo to sweep back and forth your coode should look somewhat like the one below.
+
 ```python
-Code goes here
+while True:
+    for angle in range(0, 180, 5):  # 0 - 180 degrees, 5 degrees at a time.
+        my_servo.angle = angle
+        time.sleep(0.05)
+    for angle in range(180, 0, -5):  # 180 - 0 degrees, 5 degrees at a time.
+        my_servo.angle = angle
+        time.sleep(0.05)
 
 ```
 
