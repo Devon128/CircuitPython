@@ -19,12 +19,12 @@ time.sleep(3)
 print("I'm Alive!")
 
 while True:
-    photo = interrupter.value
-    if photo and not state:
+    photo = interrupter.value # this saves the value of pin d7, if you've interupted it
+    if photo and not state:  # if this is the FIRST time the interupter detects an object
             counter += 1
     state = photo
 
-    remaining = max - time.monotonic()
+    remaining = max - time.monotonic() # this is the 4 subtracted by the current time
 
     if remaining <= 0:
         print("Interrupts:  ", str(counter))
