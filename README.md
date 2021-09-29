@@ -5,7 +5,7 @@ This repository will actually serve as a aid to help you get started with your o
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
-* [NextAssignmentGoesHere](#NextAssignment)
+* [DistanceSensor](#DistanceSensor)
 ---
 
 ## Hello_CircuitPython
@@ -48,6 +48,7 @@ while True:
 
 ### Evidence
 ![description](https://github.com/elynch78/Metro-Express/blob/main/Images/gif-servo.gif?raw=true)
+
 Image credit of Ellen(https://github.com/elynch78)
 ### Wiring
 
@@ -106,3 +107,5 @@ Code goes here
 ### Wiring
 
 ### Reflection
+
+I learned as much about VScode and Git, as I did about the sensors!
