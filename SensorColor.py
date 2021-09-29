@@ -13,7 +13,7 @@ pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
 dot = neopixel.NeoPixel(board.NEOPIXEL, 1, brightness = 0.5)
 
 
-print("Make it blue!!!Three")
+print("Make it blue!!!!!!6")
 angle = 0
 
 while True:
