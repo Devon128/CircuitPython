@@ -12,16 +12,21 @@ photo = False
 state = False
 
 max = 4
-start = time.time()
+start = time.monotonic()
+
+
+time.sleep(3)
+print("I'm Alive!")
+
 while True:
     photo = interrupter.value
     if photo and not state:
             counter += 1
     state = photo
 
-    remaining = max - time.time()
+    remaining = max - time.monotonic()
 
     if remaining <= 0:
-        print("Interrupts:", str(counter))
-        max = time.time() + 4
+        print("Interrupts:  ", str(counter))
+        max = time.monotonic() + 4
         counter = 0
