@@ -12,7 +12,7 @@ sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D8, echo_pin=board.D9)
 pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
 dot = neopixel.NeoPixel(board.NEOPIXEL, 1, brightness = 0.5)
 
-
+time.sleep(3)
 print("Make it blue!!!!!!!!8")
 angle = 0
 
