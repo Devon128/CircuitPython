@@ -49,7 +49,7 @@ while True:
 ### Evidence
 ![description](https://github.com/elynch78/Metro-Express/blob/main/Images/gif-servo.gif?raw=true)
 
-Image credit of Ellen(https://github.com/elynch78)
+[Image credit of Ellen Lynch](https://github.com/elynch78)
 ### Wiring
 
 ### Reflection
