@@ -75,12 +75,29 @@ Code goes here
 
 
 
-## NextAssignment
+## DistanceSensor
 
 ### Description & Code
 
 ```python
-Code goes here
+ angle = sonar.distance
+        print((angle,))
+        if angle < 5:
+            r = 255
+            g = 0
+            b = 0
+        elif angle < 20:
+            r = simpleio.map_range(angle, 5, 20, 255, 0)
+            g = 0
+            b = simpleio.map_range(angle, 5, 20, 0, 255)
+        elif angle < 35:
+            r = 0
+            g = simpleio.map_range(angle, 20, 35, 0, 255)
+            b = simpleio.map_range(angle, 20, 35, 255, 0)
+        else:
+            r = 0
+            g = 0
+            b = 255
 
 ```
 
